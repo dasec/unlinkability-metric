@@ -2,19 +2,17 @@
 Implementation of the local and global unlinkability metrics for biometric template protection systems evaluation.
 More details in:
 
-[IS16] M. Gomez-Barrero, C. Rathgeb, J. Galbally, C. Busch, J. Fierrez, "Unlinkable and Irreversible Biometric Template
-Protection based on Bloom Filters", in Elsevier Information Sciences, vol. 370-371, pp. 18-32, 2016
 
-[TIFS17] M. Gomez-Barrero, J. Galbally, C. Rathgeb, C. Busch, "General Framework to Evaluate Unlinkability
-in Biometric Template Protection Systems", in IEEE Trans. on Informations Forensics and Security, 2017 (submitted)
+[TIFS18] M. Gomez-Barrero, J. Galbally, C. Rathgeb, C. Busch, "General Framework to Evaluate Unlinkability
+in Biometric Template Protection Systems", in IEEE Trans. on Informations Forensics and Security, 2018 (to appear)
 
-Please remember to reference articles [IS16] and [TIFS17] on any work made public, whatever the form,
+Please remember to reference article [TIFS18] on any work made public, whatever the form,
 based directly or indirectly on these metrics.
 '''
 
 __author__ = "Marta Gomez-Barrero"
 __copyright__ = "Copyright (C) 2017 Hochschule Darmstadt"
-__license__ = "License Agreement provided by Hochschule Darmstadt (https://github.com/dasec/unlinkability-metric/blob/master/hda-license.pdf)"
+__license__ = "License Agreement provided by Hochschule Darmstadt (https://share.nbl.nislab.no/g03-06-btp/unlinkability-metric/blob/master/hda-license.pdf)"
 __version__ = "2.0"
 
 import numpy
