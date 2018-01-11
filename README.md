@@ -1,6 +1,6 @@
 # Unlinkability Metrics
 
-Implementation of the local and global unlinkability metrics for biometric template protection systems evaluation proposed in [TIFS18].
+Implementation of the local and global unlinkability metrics for biometric template protection systems evaluation proposed in [TIFS18](https://doi.org/10.1109/TIFS.2017.2788000).
 
 ## License
 This work is licensed under license agreement provided by Hochschule Darmstadt ([h_da-License](/hda-license.pdf)).
@@ -56,8 +56,8 @@ This work is licensed under license agreement provided by Hochschule Darmstadt (
 
 More details in:
 
-- [TIFS18] M. Gomez-Barrero, J. Galbally, C. Rathgeb, C. Busch, "General Framework to Evaluate Unlinkability
+- [TIFS18](https://doi.org/10.1109/TIFS.2017.2788000) M. Gomez-Barrero, J. Galbally, C. Rathgeb, C. Busch, "General Framework to Evaluate Unlinkability
 in Biometric Template Protection Systems", in IEEE Trans. on Informations Forensics and Security, 2018 (to appear)
 
-Please remember to reference article [TIFS18] on any work made public, whatever the form,
+Please remember to reference article [TIFS18](https://doi.org/10.1109/TIFS.2017.2788000) on any work made public, whatever the form,
 based directly or indirectly on these metrics.
