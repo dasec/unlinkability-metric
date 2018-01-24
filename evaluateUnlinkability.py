@@ -12,7 +12,7 @@ based directly or indirectly on these metrics.
 
 __author__ = "Marta Gomez-Barrero"
 __copyright__ = "Copyright (C) 2017 Hochschule Darmstadt"
-__license__ = "License Agreement provided by Hochschule Darmstadt (https://share.nbl.nislab.no/g03-06-btp/unlinkability-metric/blob/master/hda-license.pdf)"
+__license__ = "License Agreement provided by Hochschule Darmstadt (https://github.com/dasec/unlinkability-metric/blob/master/hda-license.pdf)"
 __version__ = "2.0"
 
 import numpy
