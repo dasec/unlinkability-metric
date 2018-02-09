@@ -57,7 +57,7 @@ This work is licensed under license agreement provided by Hochschule Darmstadt (
 More details in:
 
 - [[TIFS18]](https://doi.org/10.1109/TIFS.2017.2788000) M. Gomez-Barrero, J. Galbally, C. Rathgeb, C. Busch, "General Framework to Evaluate Unlinkability
-in Biometric Template Protection Systems", in IEEE Trans. on Informations Forensics and Security, 2018
+in Biometric Template Protection Systems", in IEEE Trans. on Informations Forensics and Security, vol. 3, no. 6, pp. 1406-1420, June 2018.
 
 Please remember to reference article [[TIFS18]](https://doi.org/10.1109/TIFS.2017.2788000) on any work made public, whatever the form,
 based directly or indirectly on these metrics.
