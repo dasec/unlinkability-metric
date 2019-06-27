@@ -31,7 +31,7 @@ parser.add_argument('matedScoresFile', help='filename for the mated scores', typ
 parser.add_argument('nonMatedScoresFile', help='filename for the non-mated scores', type=str)
 parser.add_argument('figureFile', help='filename for the output figure', type=str)
 parser.add_argument('--omega', help='omega value for the computations, if none provided, omega = 1', nargs='?', default=1., type=float)
-parser.add_argument('--nBins', help='number of bins for the computations, if none provided, nBins = 100', nargs='?', default=100, type=int)
+parser.add_argument('--nBins', help='number of bins for the computations, if none provided, nBins = min(length(matedScoresFile) / 10, 100)', nargs='?', default=-1, type=int)
 parser.add_argument('--figureTitle', help='title for the output figure', nargs='?', default='Unlinkability analysis', type=str)
 parser.add_argument('--legendLocation', help='legend location', nargs='?', default='upper right', type=str)
 
@@ -52,6 +52,9 @@ nBins = args.nBins
 # load scores
 matedScores = numpy.fromfile(matedScoresFile)
 nonMatedScores = numpy.fromfile(nonMatedScoresFile)
+
+if nBins == -1:
+	nBins = min(len(matedScores)/10,100)
 
 # define range of scores to compute D
 bin_edges = numpy.linspace(min([min(matedScores), min(nonMatedScores)]), max([max(matedScores), max(nonMatedScores)]), num=nBins + 1, endpoint=True)
